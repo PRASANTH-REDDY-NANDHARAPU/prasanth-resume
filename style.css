@@ -1,0 +1,293 @@
+body {
+  margin-top: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  display: flex;
+}
+.w-50-1 {
+  width: 25%;
+  margin-left: 220px;
+  background-color: rgba(16, 16, 112, 0.746);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 50px 10px rgba(128, 128, 128, 0.602);
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.w-50-2 {
+  width: 40%;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 0px 50px 0px rgba(128, 128, 128, 0.482);
+  padding-left: 40px;
+  padding-right: 30px;
+}
+/* ---------------blue box content css------------------ */
+.my-image {
+  width: 190px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.contact-container {
+  width: 100%;
+  text-align: start;
+}
+.address-flex {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.687);
+  justify-content: space-between;
+}
+.p {
+  width: 300px;
+}
+.dot-container {
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+.dot1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.dot2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.dot3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.dot4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.blur-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.svg {
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+/* --------------------------css for white card------------------------------- */
+.name {
+  margin-top: 40px;
+  color: rgba(16, 16, 112, 0.746);
+}
+.underline {
+  width: 170px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: rgb(228, 117, 135);
+}
+.engineer {
+  color: rgba(24, 146, 223, 0.808);
+  letter-spacing: 2px;
+}
+.p-info {
+  color: rgba(24, 146, 223, 0.808);
+  letter-spacing: 2px;
+}
+.personal-info {
+  margin-top: 40px;
+}
+.fresher {
+  color: rgba(18, 19, 20, 0.437);
+}
+.intern {
+  margin-top: -20px;
+  color: rgb(165, 190, 212);
+}
+.li {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.btn {
+  width: 50px;
+  height: 25px;
+  background-color: rgba(78, 24, 24, 0.798);
+  font-weight: bolder;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.bi-geo-alt-fill {
+  color: white;
+}
+.bi-envelope {
+  color: white;
+}
+.bi-telephone {
+  color: white;
+}
+.bi-instagram {
+  color: white;
+}
+.bi-card-text {
+  color: white;
+}
+.bi-filetype-html {
+  color: white;
+}
+.bi-code-slash {
+  color: white;
+}
+.bi-filetype-py {
+  color: white;
+}
+
+/* --------------------mobile screen css--------------------- */
+@media screen and (max-width: 650px) {
+  body {
+    margin-top: 10px;
+    /* font-size:2px; */
+  }
+  .w-50-1 {
+    margin-left: 0;
+    width: 45%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .w-50-2 {
+    width: 60%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    box-shadow: 10px 0px 20px 0px grey;
+    padding-left: 5px;
+    padding-right: 1px;
+  }
+  /* --------------blue box content css for mobile screen------------------ */
+  .my-image {
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: fill;
+  }
+  .contact-container {
+    width: 148px;
+    text-align: start;
+    padding: 5px;
+    font-size: xx-small;
+  }
+  .address-flex {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.687);
+  }
+  .svg {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+  }
+  .p {
+    width: 120px;
+    padding: 4px;
+  }
+  .p1 {
+    width: 120px;
+  }
+  .svg {
+    width: 20;
+    height: 20;
+  }
+  .bi-geo-alt-fill {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-envelope {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-telephone {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-instagram {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-card-text {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-filetype-html {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-code-slash {
+    width: 15px;
+    height: 15px;
+  }
+  .bi-filetype-py {
+    width: 15px;
+    height: 15px;
+  }
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+  .dot-container {
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+  }
+  /* ----------------------------------css for the white card------------------ */
+  .name {
+    font-size: 17px;
+    font-stretch: ultra-expanded;
+    margin-top: 20px;
+  }
+  .underline {
+    width: 85px;
+    height: 3px;
+    border-radius: 10px;
+  }
+  .engineer {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+  .p-info {
+    font-size: 10px;
+    letter-spacing: 1;
+  }
+  .dev-info {
+    font-size: 10px;
+  }
+  .p-info-1 {
+    font-size: 13px;
+  }
+  .intern {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .li {
+    font-size: 10px;
+  }
+  .pro {
+    font-size: 10px;
+  }
+  .btn {
+    width: 40px;
+    height: 20px;
+  }
+}
